@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmong Us | 我们之中出了个男同</title>
+    <link href="./css/mdui.min.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+  />
+</head>
+<body>
+    <div class="mdui-container">
+        <h1 class="mdui-typo-display-2">Gmong Us | 讨论板，留言板</h1><subtitle>一个整活网站|感谢<a href="ltya.top" target="_blank">岚天呀</a>提供的域名，网站使用Github Pages搭建，使用MDUI，配合Waline建成</subtitle>
+            <br><br>
+        <div name="menu">
+<div class="mdui-row-xs-1">
+  <div class="mdui-col">
+    <a class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple mdui-color-pink-accent
+" href="./index.html">回到站点主页</a>
+  </div>
+</div>
+        </div>
+        <br>
+        <h1>开始讨论吧！</h1>
+        <p>你可以在<strong>本版块下</strong>留言，必须保证发言<strong>合法</strong>，请不要恶意刷屏！</p>
+        <p>发言就代表同意以下规则：</p>
+        <li>发言内容是合法合规的</li>
+        <li>不是广告内容的</li>
+        <li>不与男同无关的</li>
+        <p>现在！立即发出你最逆天的事迹(?)！</p>
+        <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://waline.255650.xyz',
+    });
+  </script>
+          <p>2023 &copy; Copyright VanllaOcap</p>
+    </div>
+    <script src="./js/mdui.min.js"></script>
+</body>
+</html>

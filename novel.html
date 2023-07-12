@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmong Us | 我们之中出了个男同</title>
+    <link href="./css/mdui.min.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+  />
+</head>
+<body>
+    <div class="mdui-container">
+        <h1 class="mdui-typo-display-2">Gmong Us | 有关男同的小说</h1><subtitle>一个整活网站|感谢<a href="ltya.top" target="_blank">岚天呀</a>提供的域名，网站使用Github Pages搭建，使用MDUI，配合Waline建成</subtitle>
+            <br><br>
+        <div name="menu">
+<div class="mdui-row-xs-1">
+  <div class="mdui-col">
+    <a class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple mdui-color-pink-accent
+" href="./index.html">回到站点主页</a>
+  </div>
+</div>
+        </div>
+        <h1>已收录的小说（以及平台）</h1>
+
+        <br>
+        <hr />
+        <h1>我想让感兴趣的小说收录!</h1>
+        <p>你可以在<strong>本版块下</strong>留言，必须保证小说平台<strong>合法且可以阅读</strong>，请不要恶意刷屏！</p>
+        <p>格式如下</p>
+        <li>书名称：<em>带书名号，尽量</em></li>
+        <li>书平台：<em>我优先通过番茄平台、晋江、菠萝包(SF)等大/老平台的书</em></li>
+        <li>原书类型：免费/付费(<em>注：付费的就别整后面男同了，付费部分男同我买不起byd，要么自己截图</em>)</li>
+        <li>书状态：完结/连载（<strong>注意！！！书的字数至少2W字！不然你读个毛，短打除外</strong>）</li>
+        <li>书简介：复制会不会？不会这里就放网址</li>
+        <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://waline.255650.xyz',
+    });
+  </script>
+          <p>2023 &copy; Copyright VanllaOcap</p>
+    </div>
+    <script src="./js/mdui.min.js"></script>
+</body>
+</html>
